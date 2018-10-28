@@ -1,0 +1,467 @@
+/* ////////////////// Menu /////////////////// */
+.togh1
+{
+	display: flex;
+}
+.togh2
+{
+	display: flex;
+}
+.togh1_1
+{
+	width: 50%;
+	height: 50%;
+	background: #FFFFFF;
+	background: -webkit-radial-gradient(bottom right, #FFFFFF, #454D4D);
+	background: -moz-radial-gradient(bottom right, #FFFFFF, #454D4D);
+	background: radial-gradient(bottom right, #FFFFFF, #454D4D);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 1s;
+	filter: grayscale(100%);
+}
+.togh1_2
+{
+	width: 50%;
+	height: 50%;
+	background: #FFFFFF;
+	background: -webkit-radial-gradient(bottom left, #FFFFFF, #454D4D);
+	background: -moz-radial-gradient(bottom left, #FFFFFF, #454D4D);
+	background: radial-gradient(bottom left, #FFFFFF, #454D4D);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 1s;
+	filter: grayscale(100%);
+}
+.togh2_1
+{
+	width: 50%;
+	height: 50%;
+	background: #FFFFFF;
+	background: -webkit-radial-gradient(top right, #FFFFFF, #454D4D);
+	background: -moz-radial-gradient(top right, #FFFFFF, #454D4D);
+	background: radial-gradient(top right, #FFFFFF, #454D4D);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 1s;
+	filter: grayscale(100%);
+}
+.togh2_2
+{
+	width: 50%;
+	height: 50%;
+	background: #FFFFFF;
+	background: -webkit-radial-gradient(top left, #FFFFFF, #454D4D);
+	background: -moz-radial-gradient(top left, #FFFFFF, #454D4D);
+	background: radial-gradient(top left, #FFFFFF, #454D4D);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 1s;
+	filter: grayscale(100%);
+}
+.v1
+{
+	background: gray;
+	height: 250px;
+	width: 250px;
+	border-radius: 200px 200px 0px 0px;
+	-moz-border-radius: 200px 200px 0px 0px;
+	-webkit-border-radius: 200px 200px 0px 0px;
+	border: 0px solid #000000;
+	border: 0px solid #000000;
+	
+}
+.v2
+{
+	background: gray;
+	height:  250px;
+	width:  250px;
+	border-radius: 50% 50% 50% 50%;
+	border: 0px solid #000000;
+}
+.v3
+{
+	background: gray;
+	height:  250px;
+	width: 250px;
+	border-radius: 50% 50% 50% 0px;
+	border: 0px solid #000000;
+}
+.v4
+{
+	background: gray;
+	height:  250px;
+	width: 250px;
+	border-radius: 0px 50% 0px 50%;
+	-moz-border-radius: 0px 50% 0px 50%;
+	-webkit-border-radius: 0px 50% 0px 50%;
+	border: 0px solid #000000;
+}
+.togh1_1:hover
+{
+	background: -webkit-radial-gradient(top left, #FFFFFF, #454D4D);
+	background: -moz-radial-gradient(top left, #FFFFFF, #454D4D);
+	background: radial-gradient(top left, #FFFFFF, #454D4D);
+	-webkit-box-shadow: inset 0px 0px 31px 2px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px 0px 31px 2px rgba(0,0,0,0.75);
+	box-shadow: inset 0px 0px 31px 2px rgba(0,0,0,0.75);
+	filter: grayscale(0%);
+}
+.togh1_2:hover
+{
+	background: #FFFFFF;
+	background: -webkit-radial-gradient(top right, #FFFFFF, #454D4D);
+	background: -moz-radial-gradient(top right, #FFFFFF, #454D4D);
+	background: radial-gradient(top right, #FFFFFF, #454D4D);
+	-webkit-box-shadow: inset 0px 0px 31px 2px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px 0px 31px 2px rgba(0,0,0,0.75);
+	box-shadow: inset 0px 0px 31px 2px rgba(0,0,0,0.75);
+	filter: grayscale(0%);
+}
+.togh2_1:hover
+{
+	background: #FFFFFF;
+	background: -webkit-radial-gradient(bottom right, #FFFFFF, #454D4D);
+	background: -moz-radial-gradient(bottom right, #FFFFFF, #454D4D);
+	background: radial-gradient(bottom right, #FFFFFF, #454D4D);
+	-webkit-box-shadow: inset 0px 0px 31px 2px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px 0px 31px 2px rgba(0,0,0,0.75);
+	box-shadow: inset 0px 0px 31px 2px rgba(0,0,0,0.75);
+	filter: grayscale(0%);
+}
+.togh2_2:hover
+{
+	background: #FFFFFF;
+	background: -webkit-radial-gradient(bottom right, #FFFFFF, #454D4D);
+	background: -moz-radial-gradient(bottom right, #FFFFFF, #454D4D);
+	background: radial-gradient(bottom right, #FFFFFF, #454D4D);
+	-webkit-box-shadow: inset 0px 0px 31px 2px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px 0px 31px 2px rgba(0,0,0,0.75);
+	box-shadow: inset 0px 0px 31px 2px rgba(0,0,0,0.75);
+	filter: grayscale(0%);
+}
+.h1
+{
+	position: relative;
+	top: 200px;
+	left: 0;
+	color: rgb(0,0,0);
+	transition: 1s;
+}
+.togh1_1:hover .h1
+{
+	position: relative;
+	left: 10%;
+}
+.h2
+{
+	position: relative;
+	top: 200px;
+	left: 0;
+	color: rgb(0,0,0);
+	transition: 1s;
+}
+.togh1_2:hover .h2
+{
+	position: relative;
+	left: 10%;
+}
+.h3
+{
+	position: relative;
+	top: 200px;
+	left: 0;
+	color: rgb(0,0,0);
+	transition: 1s;
+}
+.togh2_1:hover .h3
+{
+	position: relative;
+	left: 10%;
+}
+.h4
+{
+	position: relative;
+	top: 200px;
+	left: 0;
+	color: rgb(0,0,0);
+	transition: 1s;
+}
+.togh2_2:hover .h4
+{
+	position: relative;
+	left: 10%;
+}
+body{
+	margin: 0;
+	margin-top: -67px;
+	font-family: "montserrat",sans-serif;
+	text-transform: uppercase;
+}
+/* //////////////////// New York /////////////////// */
+.middle_ny{
+	text-align: center;
+	transform: translate(0%, -50%;);
+	font-family: "montserrat",sans-serif;
+}
+.middle_ny{
+	font-size: 100px;
+	text-transform: uppercase;
+	font-weight: 900;
+	color: #2c3e5036;
+	background-image: url(https://bagelbrothersofny.com/wp-content/uploads/2016/02/skyline.png);
+	-webkit-background-clip:text;
+	animation: water 15s infinite;
+}
+@keyframes water {
+	from{
+		background-position: left 0 top 200px;
+	}
+	to{
+		background-position: left 1386px top 0px;
+	}
+}
+.galerry_ny
+{
+	margin: auto;
+	width: 100%;
+	top: 150px;
+	left: 15%;
+}
+a
+{
+	display: flex;
+	text-decoration: none;
+	color: black;
+}
+.t1
+{
+	width: 100%;
+	height: 200px;
+	padding: 0;
+}
+.t2
+{
+	width: 100%;
+	height: 300px;
+	margin: 0;
+}
+.t3
+{
+	width: 100%;
+	height: 200px;
+	margin: 0;
+}
+.title_ny
+{
+	width: 100%;
+	height: 120px;
+}
+.t1, .t2
+{
+	display: flex;
+	margin: auto;
+	box-sizing: border-box;
+}
+.t1
+{
+	width: 95%;
+	height: 250px;
+	display: flex;
+}
+.t2
+{
+	width: 95%;
+	height: 700px;
+	display: flex;
+}
+.ny_b
+{
+	background-image: linear-gradient(white,black);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: fixed;
+}
+.t1_1
+{
+	height: 100%;
+	width: 70%;
+	box-sizing: border-box;
+}
+.t1_2
+{
+	height: 100%;
+	width: 30%;
+	box-sizing: border-box;
+}
+.t2_1
+{
+	height: 100%;
+	width: 40%;
+	box-sizing: border-box;
+}
+.t2_2
+{
+	height: 100%;
+	width: 60%;
+	box-sizing: border-box;
+}
+.t2_2_1
+{
+	height: 50%;
+	width: 100%;
+	box-sizing: border-box;
+}
+.t2_2_2
+{
+	height: 50%;
+	width: 100%;
+	box-sizing: border-box;
+	display: flex;
+}
+.t2_2_2_1
+{
+	height: 100%;
+	width: 30%;
+	box-sizing: border-box;
+}
+.t2_2_2_2
+{
+	height: 100%;
+	width: 70%;
+	box-sizing: border-box;
+}
+.sm_img
+{
+	width: 100%;
+	height: 100%;
+	filter: grayscale(100%);
+	transition: 1s;
+}
+.sm_img:hover
+{
+	width: 100%;
+	height: 100%;
+	filter: grayscale(0%);
+}
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #444;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+button
+{
+	position: relative;
+	left: 81.3%;
+}
+button:hover
+{
+	background: lightblue;
+}
+/* //////////// London ///////////// */
+.middle_ld{
+	text-align: center;
+	transform: translate(0%, -50%;);
+	font-family: "montserrat",sans-serif;
+}
+.middle_ld{
+	font-size: 100px;
+	text-transform: uppercase;
+	font-weight: 900;
+	color: #2c3e5036;
+	background-image: url(https://im0-tub-ru.yandex.net/i?id=c204da7be1c080d304dc5803c78a7e7f&n=13);
+	-webkit-background-clip:text;
+	animation: water 15s infinite;
+}
+@keyframes water {
+	from{
+		background-position: left 0 top -15px;
+	}
+	to{
+		background-position: left 1000px top -15px;
+	}
+}
+/* //////////// Paris ///////////// */
+.middle_pr{
+	text-align: center;
+	transform: translate(0%, -50%;);
+	font-family: "montserrat",sans-serif;
+}
+.middle_pr{
+	font-size: 100px;
+	text-transform: uppercase;
+	font-weight: 900;
+	color: #2c3e5036;
+	background-image: url(http://syromono.info/images/skyscraper-clipart-transparent-5.png);
+	-webkit-background-clip: text;
+	animation: water 15s infinite;
+}
+@keyframes water {
+	from{
+		background-position: left 0 top -1500px;
+	}
+	to{
+		background-position: left 1000px top -1500px;
+	}
+}
+/* //////////// Rome ///////////// */
+.middle_rm{
+	text-align: center;
+	transform: translate(0%, -50%;);
+	font-family: "montserrat",sans-serif;
+}
+.middle_rm{
+	font-size: 100px;
+	text-transform: uppercase;
+	font-weight: 900;
+	color: #2c3e5036;
+	background-image: url(http://www.cosafarearoma.it/wp-content/uploads/2016/05/skyline_Roma.jpg);
+	-webkit-background-clip: text;
+	animation: water 15s infinite;
+}
+@keyframes water {
+	from{
+		background-position: left 0 top -1500px;
+	}
+	to{
+		background-position: left 1000px top -1500px;
+	}
+}
